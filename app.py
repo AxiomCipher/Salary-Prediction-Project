@@ -52,9 +52,9 @@ job_title = st.sidebar.selectbox(
 
 years_of_experience = st.sidebar.number_input(
     'How Many Years of Experience Do You Have?',
-    min_value=0.0,
-    max_value=30.0,
-    value=5.0,
+    min_value=0,
+    max_value=30,
+    value=5,
     width=150
 )
 
@@ -63,7 +63,7 @@ sample_data = pd.DataFrame({
     'Gender':[gender],
     'Education_Level':[education_level],
     'Job_Title':[job_title],
-    'Years_of_Experience':[years_of_experience],
+    'Years_of_Experience':[float(years_of_experience)],
 })
 
 st.divider()
