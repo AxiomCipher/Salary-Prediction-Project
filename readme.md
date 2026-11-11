@@ -41,4 +41,9 @@ estimates with a typical range, based on US job market data.
 
 [Open Salary Estimator](https://salary-prediction-project-14.streamlit.app/)
 
-## Project Structure
+
+## Author
+
+Toluwalase Boluwajoko
+[LinkedIn](https://www.linkedin.com/in/toluwalase-boluwajoko) · 
+[GitHub](https://github.com/AxiomCipher)
